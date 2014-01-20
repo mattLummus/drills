@@ -1,0 +1,27 @@
+body {
+  background-color: #E3F5F5;
+}
+#main {
+  background-color: white;
+  margin: auto;
+  width: 1200px;
+  box-shadow: 0 8px 6px -6px #000000;
+}
+header {
+  box-shadow: 0 8px 6px -6px #000000;
+}
+.color {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  margin: 5px;
+  box-shadow: 0 8px 6px -6px #000000;
+  display: inline-block;
+}
+#colors {
+  width: 100%;
+  box-shadow: 0 8px 6px -6px #000000;
+}
+footer {
+  margin-top: 5px;
+}

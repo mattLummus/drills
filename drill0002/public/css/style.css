@@ -1,0 +1,8 @@
+li {
+  background-color: yellow;
+  border: 2px solid red;
+  opacity: .4;
+}
+#bacon {
+  background-image: url('http://thumbs.dreamstime.com/x/seamless-repeating-tile-bacon-slices-21628882.jpg');
+}
