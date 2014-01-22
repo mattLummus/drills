@@ -2,13 +2,21 @@ doctype html
 html
   head
     meta(charset='utf-8')
-    title 
+    title Color Addition
     link(rel='stylesheet', href='/css/style.css')
     script(src='/js/vendor/jquery-1.10.2.js')
     script(src='/js/source/main.js')
     body
-      h1 Color Addition - Drill0006
-      input#textBox(type="text" placeholder="color")
-      input#addButton(type="button" value="Add Colors")
-      #container
+      header
+        #left
+          h1 Color Addition - Drill0006
+          <br>
+          input#textBox(type="text" placeholder="color")
+          input#addButton(type="button" value="Add Colors")
+        #right
+          ul
+            li#top <u> Add a list of colors </u>
+            li <blockquote> e.g. blue green yellow <blockquote> e.g. ##FF0000 #0000FF </blockquote> </blockquote>
+            li The last box holds the sum of the boxes and a randomly generated color
+        #container
 

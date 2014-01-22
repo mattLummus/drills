@@ -1,7 +1,7 @@
 var http = require('http');
 var connect = require('connect');
 var directory = 'public';
-var port = 3001;
+var port = 3006;
 
 var app = connect()
   .use(connect.logger('dev'))
