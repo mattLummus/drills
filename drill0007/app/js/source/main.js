@@ -11,7 +11,7 @@
     var randomR = Math.round((Math.random()*255));
     var randomG = Math.round((Math.random()*255));
     var randomB = Math.round((Math.random()*255));
-    var randomValue = 'rgb(' + randomR + ',' + randomG + ',' + randomB + ')';
+    var randomValue = 'rgb(' +randomR+ ',' +randomG+ ',' +randomB+ ')';
     return randomValue;
   }
 
