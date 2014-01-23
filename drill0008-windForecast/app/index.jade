@@ -1,0 +1,30 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title Ajax Weather
+    link(rel='stylesheet' href='/css/normalize.css')
+    link(rel='stylesheet' href='/css/style.css')
+    script(src='/js/vendor/jquery.js')
+    script(src='/js/source/main.js')
+  body
+    h1 Ajax Weather
+    button#getWeather Get Weather!
+    table#container
+      tr
+        td.th Wind Description
+        td.th Direction
+        td.th Degrees
+        td.th Speed (MPH)
+        td.th Gust (MPH)
+      tr
+        td#windDescription
+        td#direction
+        td#degrees
+        td#speed
+        td#gust
+
+   select
+     option(value='pick') Pick One
+     option(value='A') Tennessee
+     option(value='B') Alabama

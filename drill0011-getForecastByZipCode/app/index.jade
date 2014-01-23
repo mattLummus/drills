@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title Get Forecast By ZipCode
+    link(rel='stylesheet' href='/css/normalize.css')
+    link(rel='stylesheet' href='/css/style.css')
+    script(src='/js/vendor/jquery.js')
+    script(src='/js/source/main.js')
+  body
+    header
+      h1 Get Forecast By ZipCode
+      input#textBox(type='text' placeholder='zip code' autofocus)
+      button#addOption Add Option
+    #container
+     select#dropDown
+       <option value='0'>Pick One</option>
+     button#getForecast Get Forecast
