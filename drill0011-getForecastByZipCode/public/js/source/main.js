@@ -29,7 +29,8 @@
     console.log(data);
     var tempDiv = $('<div>');
     tempDiv.addClass('box');
-    tempDiv.text('data.weather');
+    tempDiv.text(data.forecast.simpleforecast.forecastday[0].date.weekday);
+    tempDiv.text(data.forecast.simpleforecast.forecastday[0].conditions);
     $('#container').append(tempDiv);
   }
 

@@ -1,0 +1,13 @@
+.button {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid black;
+}
+#playAgain {
+  border: 2px solid black;
+  background-color: #E65C5C;
+  box-shadow: 0 0 10px #000000;
+  display: inline-block;
+}

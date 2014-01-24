@@ -1,0 +1,12 @@
+.button {
+  border: 1px solid black;
+  height: 50px;
+  margin: 20px;
+  padding: 10px;
+  display: inline-block;
+}
+#sentence {
+  height: 200px;
+  width: 1000px;
+  border: 1px solid black;
+}
