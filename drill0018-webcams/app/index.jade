@@ -1,0 +1,39 @@
+doctype html
+//[if IE 9]><html class="lt-ie10" lang="en" > <![endif]
+html(class='no-js', lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Webcams - Drill0018
+    link(rel='stylesheet', href='/css/normalize.css')
+    link(rel='stylesheet', href='/css/foundation.css')
+    link(rel='stylesheet', href='/css/app.css')
+    script(src='/js/vendor/modernizr.js')
+  body
+    .row
+      .small-12.columns
+        h1 Webcams - Drill0018
+    .row
+      .small-2.columns
+        input#zipText(type='text', placholder='e.g. 37212', autofocus)
+      .small-2.columns
+        button#addZip Add Zip
+      .small-2.columns
+        button#clear Clear
+      .small-6.columns
+    .row
+      .small-2.columns
+        select#dropDown
+      .small-2.columns
+        button#getWebcams Get Webcams
+      .small-8.columns
+    .row
+      .small-12.columns
+        #container
+
+    script(src='/js/vendor/jquery.js')
+    script(src='/js/vendor/foundation.js')
+    script(src='/js/source/main.js')
+    script(src='/js/vendor/lodash.js')
+    script $(document).foundation();
+

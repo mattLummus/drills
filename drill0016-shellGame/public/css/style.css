@@ -1,13 +1,34 @@
+body {
+  width: 400px;
+  background-color: grey;
+  margin: auto;
+  color: white;
+  text-shadow: 2px 2px #B23636;
+}
 .button {
   height: 100px;
   width: 100px;
   display: inline-block;
   text-align: center;
   border: 1px solid black;
+  box-shadow: 0px 0px 10px black;
+  border: 3px solid black;
+  margin-left: 27px;
 }
 #playAgain {
   border: 2px solid black;
   background-color: #E65C5C;
   box-shadow: 0 0 10px #000000;
   display: inline-block;
+}
+header {
+  box-shadow: 0px 0px 10px black;
+  border: 1px solid black;
+  margin: 5px;
+  display: inline-block;
+  padding: 20px;
+  width: 380px;
+}
+#container {
+  margin: auto;
 }

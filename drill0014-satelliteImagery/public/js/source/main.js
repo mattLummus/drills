@@ -38,3 +38,22 @@
   }
 
 })();
+
+//CHYLD'S CODE 
+/**
+ *  function getImagery(){
+ *    var zip = $('#zip').val();
+ *    var url = ".../" +zip+ ".json?callback=?";
+ *
+ *    $.getJSON(url, function(data){
+ *    var image = $('#container img');
+ *    var index = 0;
+ *
+ *      for(var property in data.satellite){
+ *        $($images[index]).attr('src', data.satellite[property]);
+ *        index++;
+ *      }
+ *    }
+ *  }
+ */
+
