@@ -33,6 +33,7 @@
       $tempDiv.text(hood);
       $tempImg.attr('src', url);
       $tempImg.addClass('img');
+      $tempDiv.addClass('div');
       console.log(data.webcams);
       $('#container').prepend($tempDiv);
       $('#container').prepend($tempImg);
